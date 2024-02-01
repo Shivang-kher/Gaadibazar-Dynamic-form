@@ -1,0 +1,288 @@
+[
+    {
+        "master_id": 1,
+        "product": "VF",
+        "vehicle_category": "commercial_vehicle",
+        "data": [
+            {
+                "df_key": "commercial_vehicle",
+                "df_title": "Commercial vehicle",
+                "df_design": "tab",
+                "df_icon": "",
+                "df_elements": [
+                    {
+                        "df_key": "hcv",
+                        "df_title": "HCV",
+                        "df_design": "form",
+                        "df_icon": "vehicle",
+                        "df_elements": [
+                            {
+                                "df_key": "loan_details",
+                                "df_title": "loan_details",
+                                "df_design": "accordion",
+                                "df_icon": "",
+                                "df_elements": [
+                                    {
+                                        "df_key": "minimum_loan_amount",
+                                        "df_title": "minimum_loan_amount",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    },
+                                    {
+                                        "df_key": "maximum_loan_amount",
+                                        "df_title": "maximum_loan_amount",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    },
+                                    {
+                                        "df_key": "revised_loan_amount_min",
+                                        "df_title": "revised_loan_amount_min",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    },
+                                    {
+                                        "df_key": "idv_percentage",
+                                        "df_title": "idv_percentage",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    }
+                                ]
+                            },
+                            {
+                                "df_key": "credit_score",
+                                "df_title": "credit_score",
+                                "df_design": "tab",
+                                "df_elements": [
+                                    {
+                                        "df_key": "720+",
+                                        "df_title": "720+",
+                                        "df_design": "form",
+                                        "df_elements": [
+                                            {
+                                                "df_key": "fees_other_charges",
+                                                "df_title": "fees_other_charges",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "processing_fee",
+                                                        "df_title": "processing_fee",
+                                                        "df_design": "number",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "1"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "df_key": "insurance_details",
+                                                "df_title": "insurance_details",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "vehicle_fitness",
+                                                        "df_title": "vehicle_fitness",
+                                                        "df_design": "toggle",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "on"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "df_key": "650+",
+                                        "df_title": "650 to 719",
+                                        "df_design": "form",
+                                        "df_elements": [
+                                            {
+                                                "df_key": "fees_other_charges",
+                                                "df_title": "fees_other_charges",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "processing_fee",
+                                                        "df_title": "processing_fee",
+                                                        "df_design": "number",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "1"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "df_key": "insurance_details",
+                                                "df_title": "insurance_details",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "vehicle_fitness",
+                                                        "df_title": "vehicle_fitness",
+                                                        "df_design": "toggle",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "on"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+
+
+
+
+                    {
+                        "df_key": "lcv",
+                        "df_title": "LCV",
+                        "df_design": "form",
+                        "df_icon": "vehicle",
+                        "df_elements": [
+                            {
+                                "df_key": "loan_details",
+                                "df_title": "loan_details",
+                                "df_design": "accordion",
+                                "df_icon": "",
+                                "df_elements": [
+                                    {
+                                        "df_key": "minimum_loan_amount",
+                                        "df_title": "minimum_loan_amount",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    },
+                                    {
+                                        "df_key": "maximum_loan_amount",
+                                        "df_title": "maximum_loan_amount",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    },
+                                    {
+                                        "df_key": "revised_loan_amount_min",
+                                        "df_title": "revised_loan_amount_min",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    },
+                                    {
+                                        "df_key": "idv_percentage",
+                                        "df_title": "idv_percentage",
+                                        "df_design": "number",
+                                        "df_input_required": true,
+                                        "df_input": "external",
+                                        "df_value": "100000"
+                                    }
+                                ]
+                            },
+                            {
+                                "df_key": "credit_score",
+                                "df_title": "credit_score",
+                                "df_design": "tab",
+                                "df_elements": [
+                                    {
+                                        "df_key": "720+",
+                                        "df_title": "720+",
+                                        "df_design": "form",
+                                        "df_elements": [
+                                            {
+                                                "df_key": "fees_other_charges",
+                                                "df_title": "fees_other_charges",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "processing_fee",
+                                                        "df_title": "processing_fee",
+                                                        "df_design": "number",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "1"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "df_key": "insurance_details",
+                                                "df_title": "insurance_details",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "vehicle_fitness",
+                                                        "df_title": "vehicle_fitness",
+                                                        "df_design": "toggle",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "on"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "df_key": "650+",
+                                        "df_title": "650 to 719",
+                                        "df_design": "form",
+                                        "df_elements": [
+                                            {
+                                                "df_key": "fees_other_charges",
+                                                "df_title": "fees_other_charges",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "processing_fee",
+                                                        "df_title": "processing_fee",
+                                                        "df_design": "number",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "1"
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "df_key": "insurance_details",
+                                                "df_title": "insurance_details",
+                                                "df_design": "accordion",
+                                                "df_icon": "",
+                                                "df_elements": [
+                                                    {
+                                                        "df_key": "vehicle_fitness",
+                                                        "df_title": "vehicle_fitness",
+                                                        "df_design": "toggle",
+                                                        "df_input_required": true,
+                                                        "df_input": "external",
+                                                        "df_value": "on"
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+
+                ]
+            }
+        ]
+    }
+]
