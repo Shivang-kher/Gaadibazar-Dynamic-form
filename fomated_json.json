@@ -1,0 +1,66 @@
+{
+    "status": "SUCCESSSS",
+    "message": "1 of records found for the query",
+    "data": {
+        "hcv": {
+            "loan_details": {
+                "minimum_loan_amount": "100000",
+                "maximum_loan_amount": "100000",
+                "revised_loan_amount_min": "100000",
+                "idv_percentage": "100000"
+            },
+            "credit_score": {
+                "650": {
+                    "fees_other_charges": {
+                        "processing_fee": "1"
+                    },
+                    "insurance_details": {
+                        "vehicle_fitness": "on"
+                    }
+                },
+                "720": {
+                    "fees_other_charges": {
+                        "processing_fee": "1"
+                    },
+                    "insurance_details": {
+                        "vehicle_fitness": "on"
+                    }
+                },
+                "650-": {
+                    "fees_other_charges": {
+                        "processing_fee": "1"
+                    },
+                    "insurance_details": {
+                        "vehicle_fitness": "on"
+                    }
+                }
+            }
+        },
+        "lcv": {
+            "loan_details": {
+                "minimum_loan_amount": "100000",
+                "maximum_loan_amount": "100000",
+                "revised_loan_amount_min": "100000",
+                "idv_percentage": "100000"
+            },
+            "credit_score": {
+                "650": {
+                    "fees_other_charges": {
+                        "processing_fee": "1"
+                    },
+                    "insurance_details": {
+                        "vehicle_fitness": "on"
+                    }
+                },
+                "720": {
+                    "fees_other_charges": {
+                        "processing_fee": "1"
+                    },
+                    "insurance_details": {
+                        "vehicle_fitness": "on"
+                    }
+                }
+            }
+        }
+    }
+}
